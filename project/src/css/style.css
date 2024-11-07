@@ -1,0 +1,46 @@
+.header {
+    display: flex;
+    width: 1920px;
+}
+.header__text {
+    font-size: 14px;
+}
+.logo__img {
+    width: 202px;
+    height: 22px;
+    padding: 30px 0 0 403px;
+}
+.main__link {
+    padding: 32px 0 0 318px;
+}
+.product__link{
+    padding: 32px 0 0 38px;
+}
+.about__link {
+    padding: 32px 0 0 39px;
+}
+.news__link {
+    padding: 32px 0 0 38px;
+}
+.project__link {
+    padding: 32px 0 0 38px;
+}
+.contacts__info {
+    font-size: 9px;
+    padding: 26px 0 0 41px;
+}
+.company__info {
+    display: flex;
+    width: 1925px;
+    height: 394px;
+    background-image: url("/projectWeb/project/src/img/bg-img.jpg");
+    background-size: 1925px 394px;
+}
+.company__info__text {
+    text-align: center;
+    margin: 160px 522px 522px 207px;
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 25px;
+    width: 881px;
+}

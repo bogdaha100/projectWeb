@@ -33,7 +33,7 @@
     display: flex;
     width: 1925px;
     height: 394px;
-    background-image: url("/projectWeb/project/src/img/bg-img.jpg");
+    background-image: url("/project/src/img/bg-img.jpg");
     background-size: 1925px 394px;
 }
 .company__info__text {
@@ -44,3 +44,63 @@
     font-size: 25px;
     width: 881px;
 }
+
+
+
+
+
+.img__block {
+    display: grid;
+    grid-template-columns: 350px 350px 350px;
+}
+
+.min-img {
+    width: 327px;
+    height: 327px;
+}
+
+
+
+
+
+.advantage__img__block {
+    display: grid;
+    grid-template-columns: 180px 180px 180px 180px 180px;
+}
+
+.advantage__min-img {
+    width: 168px;
+    height: 168px;
+}
+
+
+
+
+.license__img__block {
+    display: grid;
+    grid-template-columns: 470px 470px ;
+}
+
+.license__img {
+    width: 328px;
+    height: 462px;
+}
+
+
+
+
+
+
+
+.interesting__block-card {
+    display: grid;
+    grid-template-columns: 370px 370px 370px;
+}
+
+.card__img {
+    width: 352px;
+    height: 210px;
+}
+
+
+

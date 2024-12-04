@@ -3,41 +3,34 @@
     color: #4F4F4F;
 }
 
-.header {
-    display: flex;
-
+div.container {
+    max-width: 1130px !important;
 }
+
+.navbar {
+    display: flex;
+    justify-content: space-between !important;
+}
+
+.menu__item {
+    text-decoration: none;
+}
+
+.header__logo {
+    width: 202px;
+    height: 22px;
+    padding-top: 30px;
+}
+
 .header__text {
     font-size: 14px;
     line-height: 16.41px;
-}
-.logo__img {
-    width: 202px;
-    height: 22px;
-    padding: 30px 0 0 403px;
-}
-.main__link {
-    padding: 32px 0 0 318px;
-}
-.product__link{
-    padding: 32px 0 0 38px;
-}
-.about__link {
-    padding: 32px 0 0 39px;
-}
-.news__link {
-    padding: 32px 0 0 38px;
-}
-.project__link {
-    padding: 32px 0 0 38px;
-}
-.contacts__info {
-    font-size: 9px;
-    padding: 26px 0 0 41px;
+    padding-top: 32px;
+    gap: 40px;
 }
 
 h1 {
-    margin: 120px 0 29px 403px;
+    margin: 68px 0 29px 0;
     font-size: 25px;
     line-height: 29.3px;
 }
@@ -48,14 +41,20 @@ h1 {
     height: 394px;
     background-image: url("/project/src/img/bg-img.jpg");
     background-size: 1925px 394px;
+
 }
+
 .company__info__text {
-    text-align: center;
-    margin: 160px 522px 207px 522px;
+    width: 881px;
+    height: 394px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     color: #FFFFFF;
     font-weight: 700;
     font-size: 25px;
-    width: 881px;
+    text-align: center;
+    margin-left: 502px;
 }
 
 .some__info {
@@ -79,25 +78,25 @@ h1 {
 .some__info__big__text {
     font-size: 14px;
     margin: 25px 399px 0 399px;
-    line-height: 16.8pxpx;
+    line-height: 16.8px;
 
 }
-.history__info{
+
+.history__info {
+    width: 619px;
+    height: 73px;
     text-align: center;
 }
 
 .history__h {
-    width: 357px;
-    height: 27px;
-    margin: 20px 779px 0 784px;
     font-size: 25px;
     line-height: 29.3px;
 }
 
 .history__info__text {
-    margin: 13px 648px 0 653px;
     font-size: 14px;
-    line-height: 16.8px;
+    line-height: 18.23px;
+    text-align: center;
 }
 
 .img__block {
@@ -145,7 +144,7 @@ h1 {
 }
 
 .advantage__img__block {
-    margin: 33px 0 0 0;
+    margin-top: 33px;
     display: grid;
     grid-template-columns: 180px 180px 180px 180px 180px;
     justify-content: center;
@@ -174,7 +173,7 @@ h1 {
     line-height: 29.3px;
 }
 
-.license__info__text{
+.license__info__text {
     width: 668px;
     height: 34px;
     font-size: 14px;
@@ -217,4 +216,3 @@ h1 {
     margin: 67px 399px 0 399px;
     text-align: center;
 }
-

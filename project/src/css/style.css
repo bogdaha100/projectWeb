@@ -7,46 +7,58 @@ div.container {
     max-width: 1130px !important;
 }
 
-.navbar {
-    display: flex;
+nav {
     justify-content: space-between !important;
+    padding-top: 32px !important;
+    margin-bottom: 55px;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
 }
 
-.menu__item {
+a.menu-item {
+    padding-right: 40px;
+    color: #4F4F4F;
     text-decoration: none;
+}
+
+a.active {
+    color: #2D9CDB !important;
 }
 
 .header__logo {
     width: 202px;
-    height: 22px;
-    padding-top: 30px;
 }
 
 .header__text {
     font-size: 14px;
     line-height: 16.41px;
-    padding-top: 32px;
-    gap: 40px;
+}
+
+.contacts {
+    font-size: 9px;
+    line-height: 10.55px;
 }
 
 h1 {
     margin: 68px 0 29px 0;
     font-size: 25px;
     line-height: 29.3px;
+    font-weight: 700;
 }
 
-.company__info {
+.container.company__info {
     display: flex;
     width: 1925px;
-    height: 394px;
-    background-image: url("/project/src/img/bg-img.jpg");
-    background-size: 1925px 394px;
+}
 
+.bg-white.company__info {
+    height: 394px;
+    background-size: 1925px 394px;
+    background-image: url("/project/src/img/bg-img.jpg");
 }
 
 .company__info__text {
     width: 881px;
-    height: 394px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -54,19 +66,19 @@ h1 {
     font-weight: 700;
     font-size: 25px;
     text-align: center;
-    margin-left: 502px;
 }
 
 .some__info {
     width: 619px;
     height: 113px;
-    margin: 58px 640px 0 661px;
+    margin-top: 58px;
     text-align: center;
 }
 
 .some__info__h {
     font-size: 25px;
     line-height: 29.3px;
+    font-weight: 700;
 }
 
 .some__info__text {
@@ -79,38 +91,49 @@ h1 {
     font-size: 14px;
     margin: 25px 399px 0 399px;
     line-height: 16.8px;
-
 }
 
 .history__info {
+    margin-top: 50px;
     width: 619px;
-    height: 73px;
+    /* height: 73px; */
     text-align: center;
 }
 
 .history__h {
+    text-align: center;
     font-size: 25px;
     line-height: 29.3px;
+    font-weight: 700;
 }
 
 .history__info__text {
+    height: 73px;
     font-size: 14px;
     line-height: 18.23px;
     text-align: center;
 }
 
 .img__block {
-    margin: 27px 393px 0 399px;
+    margin-top: 56px;
     display: grid;
     grid-template-columns: 350px 350px 350px;
     gap: 40px 72.52px;
     text-align: center;
-
 }
 
 .img__min-block {
     font-size: 14px;
     line-height: 18.23px;
+}
+
+.img__min-block__date {
+    font-size: 14px;
+    line-height: 18.23px;
+    text-align: center;
+    font-weight: 700;
+    width: 265.89px;
+    margin: 0 auto;
 }
 
 .min-img {
@@ -130,7 +153,7 @@ h1 {
     font-size: 25px;
     line-height: 29.3px;
     text-align: center;
-
+    font-weight: 700;
 }
 
 .advantage__info__text {
@@ -147,7 +170,6 @@ h1 {
     margin-top: 33px;
     display: grid;
     grid-template-columns: 180px 180px 180px 180px 180px;
-    justify-content: center;
     gap: 23px 72px;
 }
 
@@ -161,6 +183,7 @@ h1 {
     text-align: center;
     margin: 18px 0 0 0;
     line-height: 18.2px;
+    font-size: 14px;
 }
 
 .license__info {
@@ -171,6 +194,8 @@ h1 {
 .license__h {
     font-size: 25px;
     line-height: 29.3px;
+    font-weight: 700;
+    text-align: center;
 }
 
 .license__info__text {
@@ -203,8 +228,9 @@ h1 {
 }
 
 .interesting__block-card {
-    display: grid;
-    grid-template-columns: 370px 370px 370px;
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
 }
 
 .card__img {
@@ -213,6 +239,76 @@ h1 {
 }
 
 .group-company__info {
-    margin: 67px 399px 0 399px;
+    margin-top: 67px;
     text-align: center;
+}
+
+.group-company__info__text {
+    margin-top: 13px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16.8px;
+    text-align: center;
+}
+
+.group-company__link {
+    margin-top: 33px;
+    display: block;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16.8px;
+    text-align: center;
+    text-decoration-line: underline;
+    text-decoration-style: solid;
+    text-decoration-skip-ink: none;
+    color: #1B86C0;
+}
+
+.be__interesting {
+    margin-top: 101px;
+    font-size: 20px;
+    line-height: 23.44px;
+    text-align: left;
+    font-weight: 700;
+}
+
+.group-company__info__text__left {
+    margin-top: 25px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18.23px;
+    text-align: left;
+}
+
+.interesting__card {
+    width: 352px;
+    border-radius: 5px;
+    box-shadow: 0px 2px 4px 0px #00000040;
+}
+
+.interesting__card-date {
+    margin-top: 19px;
+    margin-left: 21px;
+    font-size: 16px;
+    line-height: 18.75px;
+    text-align: left;
+    font-weight: 700;
+}
+
+.interesting__card__text {
+    margin-top: 12px;
+    margin-left: 21px;
+    width: 306px;
+    height: 57px;
+    font-size: 14px;
+    line-height: 18.2px;
+    text-align: left;
+}
+
+.link {
+    display: flex;
+    justify-content: end;
+    margin-top: 16px;
+    margin-bottom: 24px;
+    margin-right: 9px;
 }

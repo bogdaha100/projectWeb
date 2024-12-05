@@ -7,32 +7,47 @@
     <title>Document</title>
     <link rel="stylesheet" href="/project/src/css/bootstrap.css">
     <link rel="stylesheet" href="/project/src/css/style.css">
+    <link rel="stylesheet" href="/project/src/fontAwesome/css/all.css">
 </head>
 
 <body>
-    <div class="header">
-        <div class="container navbar">
-            <div>
-                <img src="/project/src/img/logo.png" alt="logo" class="header__logo">
-            </div>
-            <div class="header__text navbar">
-                <a href="/" class="menu__item">Главная</a>
-                <a href="/" class="menu__item">Продукция</a>
-                <a href="/" class="menu__item">О компании</a>
-                <a href="/" class="menu__item">Новости</a>
-                <a href="/" class="menu__item">Проекты</a>
-                <a href="/" class="menu__item">
-                    <div> + 7 495 226 02 99 <br> info@npo-at.com</div>
-                </a>
-            </div>
+    <header>
+        <div class="container">
+            <nav class="navbar navbar-expand-md">
+                <div>
+                    <img src="/project/src/img/logo.png" alt="logo" class="header__logo">
+                </div>
+                <div>
+                    <ul class="navbar-nav ml-auto header__text">
+                        <li>
+                            <a class="menu-item" href="/">Главная</a>
+                        </li>
+                        <li>
+                            <a class="menu-item" href="/">Продукция</a>
+                        </li>
+                        <li>
+                            <a class="menu-item active" href="/">О компании</a>
+                        </li>
+                        <li>
+                            <a class="menu-item" href="/">Новости</a>
+                        </li>
+                        <li>
+                            <a class="menu-item" href="/">Проекты</a>
+                        </li>
+                        <li>
+                            <a class="menu-item" href="/" class="contacts"> + 7 495 226 02 99 <br>
+                                info@npo-at.com</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
         </div>
-
-    </div>
+    </header>
     <div class="container">
         <h1>О компании</h1>
     </div>
-    <div class="bg-dark">
-        <div class="col-sm-6 company__info">
+    <div class="container bg-white company__info">
+        <div class="col-sm-6 ">
             <span class="company__info__text">АО “НПО “Андроидная техника” специализируется на разработке, производстве,
                 обслуживании робототехнических комплексов (РТК) различного назначения, в том числе биоморфных
             </span>
@@ -73,51 +88,51 @@
     </div>
     <div class="container img__block">
         <div class="img__min-block">
-            <div>2007 г.</div>
+            <div class="img__min-block__date">2007 г.</div>
             <img src="/project/src/img/img2007.jpg" alt="" class="min-img">
         </div>
         <div class="img__min-block">
-            <div>2008 г.</div>
+            <div class="img__min-block__date">2008 г.</div>
             <img src="/project/src/img/img2008.jpg" alt="" class="min-img">
         </div>
         <div class="img__min-block">
-            <div>2009 г.</div>
+            <div class="img__min-block__date">2009 г.</div>
             <img src="/project/src/img/img2009.jpg" alt="" class="min-img">
         </div>
         <div class="img__min-block">
-            <div>2010 г.</div>
+            <div class="img__min-block__date">2010 г.</div>
             <img src="/project/src/img/img2010.jpg" alt="" class="min-img">
         </div>
         <div class="img__min-block">
-            <div>2011 г.</div>
+            <div class="img__min-block__date">2011 г.</div>
             <img src="/project/src/img/img2011.jpg" alt="" class="min-img">
         </div>
         <div class="img__min-block">
-            <div>2012 г.</div>
+            <div class="img__min-block__date">2012 г.</div>
             <img src="/project/src/img/img2012.jpg" alt="" class="min-img">
         </div>
         <div class="img__min-block">
-            <div>2013 г.</div>
+            <div class="img__min-block__date">2013 г.</div>
             <img src="/project/src/img/img2013.jpg" alt="" class="min-img">
         </div>
         <div class="img__min-block">
-            <div>2014 г.</div>
+            <div class="img__min-block__date">2014 г.</div>
             <img src="/project/src/img/img2014.jpg" alt="" class="min-img">
         </div>
         <div class="img__min-block">
-            <div>2015 г.</div>
+            <div class="img__min-block__date">2015 г.</div>
             <img src="/project/src/img/img2015.jpg" alt="" class="min-img">
         </div>
         <div class="img__min-block">
-            <div>2016 г.</div>
+            <div class="img__min-block__date">2016 г.</div>
             <img src="/project/src/img/img2016.jpg" alt="" class="min-img">
         </div>
         <div class="img__min-block">
-            <div>2017 г.</div>
+            <div class="img__min-block__date">2017 г.</div>
             <img src="/project/src/img/img2017.jpg" alt="" class="min-img">
         </div>
         <div class="img__min-block">
-            <div>2018 г.</div>
+            <div class="img__min-block__date">2018 г.</div>
             <img src="/project/src/img/img2018.jpg" alt="" class="min-img">
         </div>
     </div>
@@ -186,36 +201,40 @@
         </div>
     </div>
 
-    <div class="group-company__info">
+    <div class="container group-company__info">
         <h2 class="group-company__h">Группа компаний НПО “Андроидная техника”</h2>
         <div class="group-company__info__text">Список подконтрольных НПО «АТ» организаций, имеющих для него существенное
             значение, публикуется в Ежеквартальном отчете НПО «АТ».</div>
-        <div class="group-company__info__text">Группа НПО «Андроидная техника» (Группа) - совокупность объединенных
+        <div class="group-company__info__text__left">Группа НПО «Андроидная техника» (Группа) - совокупность
+            объединенных
             единой системой управления и контроля организаций, деятельность которых направлена на достижение единой
             стратегической цели - сохранение долговременной конкурентоспособности и устойчивое развитие.</div>
-        <a href=""> Аффилированные лица НПО «АТ»</a>
+        <a href="" class="group-company__link"><img src="/project/src/img/cloud.png" alt=""> Аффилированные лица НПО
+            «АТ»</a>
     </div>
-    <h2>Вам может быть интересно</h2>
-    <div class="interesting__block-card">
+    <div class="container">
+        <h2 class="be__interesting">Вам может быть интересно</h2>
+    </div>
+    <div class="container interesting__block-card">
         <div class="interesting__card">
             <img src="/project/src/img/card1.jpg" alt="" class="card__img">
             <div class="interesting__card-date">23 мая 2019 г.</div>
             <div class="interesting__card__text">Трансформация Роскосмоса. Выступление генерального директора
                 Госкорпорации «Роскосмос» Дмитрия Рогозина</div>
-            <a href="">Читать далее ></a>
+            <a href="" class="link">Читать далее > </a>
         </div>
         <div class="interesting__card">
             <img src="/project/src/img/card2.jpg" alt="" class="card__img">
             <div class="interesting__card-date">23 мая 2019 г.</div>
             <div class="interesting__card__text">Конференция «Цифровая индустрия промышленной России»</div>
-            <a href="">Читать далее ></a>
+            <a href="" class="link">Читать далее > </a>
         </div>
         <div class="interesting__card">
             <img src="/project/src/img/card3.jpg" alt="" class="card__img">
             <div class="interesting__card-date">15 мая 2019 г.</div>
-            <div class="interesting__card__text">Врачи и разработчики робота "Федора" создали экзокисть для детей с ДЦП
-            </div>
-            <a href="">Читать далее ></a>
+            <div class="interesting__card__text">Врачи и разработчики робота "Федора"
+                создали экзокисть для детей с ДЦП</div>
+            <a href="" class="link">Читать далее > </a>
         </div>
     </div>
 </body>

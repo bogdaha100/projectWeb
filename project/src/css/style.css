@@ -46,31 +46,27 @@ h1 {
     font-weight: 700;
 }
 
-.container.company__info {
-    display: flex;
-    width: 1925px;
-}
-
 .bg-white.company__info {
     height: 394px;
-    background-size: 1925px 394px;
     background-image: url("/project/src/img/bg-img.jpg");
-}
-
-.company__info__text {
-    width: 881px;
+    background-size: cover;
+    background-position: center;
+    max-width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
-    color: #FFFFFF;
+}
+
+.company__info__text {
+    color: #FFFFFF !important;
     font-weight: 700;
     font-size: 25px;
-    text-align: center;
 }
 
 .some__info {
-    width: 619px;
-    height: 113px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     margin-top: 58px;
     text-align: center;
 }
@@ -82,14 +78,14 @@ h1 {
 }
 
 .some__info__text {
+    height: 73px;
     font-size: 14px;
     line-height: 18.23px;
-    text-align: center;
 }
 
 .some__info__big__text {
+    margin-top: 50px;
     font-size: 14px;
-    margin: 25px 399px 0 399px;
     line-height: 16.8px;
 }
 

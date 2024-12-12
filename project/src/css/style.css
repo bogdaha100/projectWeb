@@ -3,6 +3,20 @@
     color: #4F4F4F;
 }
 
+@media (max-width: 768px) {
+     .container, .be__interesting {
+        text-align: center;
+        justify-content: center !important;
+    }
+  }
+
+  @media (max-width: 450px) {
+    .navbar,.be__interesting {
+        justify-content: center !important;
+        flex-direction: column;
+        gap: 32px 0px !important;
+   }
+ }
 div.container {
     max-width: 1130px !important;
 }
@@ -78,7 +92,6 @@ h1 {
 }
 
 .some__info__text {
-    height: 73px;
     font-size: 14px;
     line-height: 18.23px;
 }
@@ -90,9 +103,11 @@ h1 {
 }
 
 .history__info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     margin-top: 50px;
-    width: 619px;
-    /* height: 73px; */
+    /* width: 619px; */
     text-align: center;
 }
 
@@ -112,10 +127,11 @@ h1 {
 
 .img__block {
     margin-top: 56px;
-    display: grid;
-    grid-template-columns: 350px 350px 350px;
-    gap: 40px 72.52px;
-    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    gap: 0 30px;
 }
 
 .img__min-block {
@@ -140,9 +156,10 @@ h1 {
 }
 
 .advantage__info {
-    margin: 57.66px auto 0 auto;
-    text-align: center;
-    width: 514px;
+    margin-top: 57.66px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap; 
 }
 
 .advantage__h {
@@ -154,9 +171,6 @@ h1 {
 
 .advantage__info__text {
     margin: 13px 0 0 0;
-    width: 514px;
-    height: 52px;
-    padding: 13px 0 0 0;
     font-size: 14px;
     line-height: 18.23px;
 
@@ -164,9 +178,18 @@ h1 {
 
 .advantage__img__block {
     margin-top: 33px;
-    display: grid;
-    grid-template-columns: 180px 180px 180px 180px 180px;
-    gap: 23px 72px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 0px 35px;
+}
+
+.advantage__img__min-block {
+    margin-top: 18px;
+    max-width: 168px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
 }
 
 .advantage__min-img {
@@ -195,18 +218,23 @@ h1 {
 }
 
 .license__info__text {
-    width: 668px;
-    height: 34px;
     font-size: 14px;
     line-height: 16.8px;
-    margin: 0 626px;
 }
 
 .license__img__block {
-    display: grid;
-    grid-template-columns: 462px 462px;
+    margin-top: 33px;
+    display: flex;
     justify-content: center;
-    margin: 0 580px 0 591px;
+    flex-wrap: wrap;
+    gap: 0px 47px;
+}
+
+.license__img__min-block {
+    width: 327px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .license__img {
@@ -226,7 +254,11 @@ h1 {
 .interesting__block-card {
     margin-top: 40px;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    text-align: center;
+    gap: 0px 15px;
 }
 
 .card__img {
@@ -261,6 +293,7 @@ h1 {
 }
 
 .be__interesting {
+    display: flex;
     margin-top: 101px;
     font-size: 20px;
     line-height: 23.44px;

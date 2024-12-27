@@ -1,0 +1,162 @@
+* {
+    font-family: 'Roboto', sans-serif;
+    color: #4F4F4F;
+}
+
+@media (max-width: 768px) {
+
+    .container,
+    .be__interesting {
+        text-align: center;
+        justify-content: center !important;
+    }
+}
+
+@media (max-width: 450px) {
+
+    .navbar,
+    .be__interesting {
+        justify-content: center !important;
+        flex-direction: column;
+        gap: 32px 0px !important;
+    }
+}
+
+div.container {
+    max-width: 1130px !important;
+}
+
+nav {
+    justify-content: space-between !important;
+    padding-top: 32px !important;
+    /* margin-bottom: 55px; */
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+}
+
+a.menu-item {
+    padding-right: 40px;
+    color: #4F4F4F;
+    text-decoration: none;
+}
+
+a.active {
+    color: #2D9CDB !important;
+}
+
+.header__logo {
+    width: 202px;
+}
+
+.header__text {
+    font-size: 14px;
+    line-height: 16.41px;
+}
+
+.contacts {
+    font-size: 9px;
+    line-height: 10.55px;
+}
+
+.bg-white.company__info {
+    height: 600px;
+    margin-top: 29px;
+    background-image: url("/project/src/img/main/bg-main.png");
+    background-size: cover;
+    background-position: center;
+    max-width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.company__info__text {
+    display: flex;
+    margin-top: 21px;
+    max-width: 475px;
+    color: #ffffff;
+    font-size: 18px;
+    line-height: 23.43px;
+    text-align: left;
+}
+
+.col-sm-6 h1 {
+    display: flex;
+    color: #ffffff;
+    font-size: 40px;
+    line-height: 46.88px;
+    text-align: center;
+    font-weight: 700;
+}
+
+.products__info {
+    margin-top: 37px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.products__h {
+    font-size: 25px;
+    line-height: 29.3px;
+    text-align: center;
+    font-weight: 700;
+}
+
+.products__text {
+    font-size: 14px;
+    line-height: 18.23px;
+    text-align: center;
+}
+
+.products__card-block {
+    margin-top: 37px;
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    gap: 0 50px;
+}
+
+.products__card {
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+}
+
+.products__img {
+    width: 244px;
+}
+
+.products__card__h {
+    margin-top: 22px;
+    font-size: 14px;
+    line-height: 18.23px;
+    text-align: center;
+    font-weight: 700;
+}
+
+.products__card__text {
+    margin-top: 12px;
+    font-size: 12px;
+    line-height: 15.62px;
+    text-align: center;
+    min-height: 121px;
+}
+
+.products__btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 94px;
+    height: 24px;
+    gap: 0px;
+    border: 0px;
+    border-radius: 10px;
+    margin: auto auto;
+    background: #2D9CDB;
+    font-size: 9px;
+    line-height: 11.72px;
+    text-align: center;
+    color: #ffffff;
+}

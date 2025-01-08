@@ -1,6 +1,7 @@
 * {
     font-family: 'Roboto', sans-serif;
     color: #4F4F4F;
+    box-sizing: content-box;
 }
 
 @media (max-width: 768px) {
@@ -114,18 +115,21 @@ a.active {
     margin-top: 37px;
     display: flex;
     justify-content: center;
-    justify-items: center;
-    gap: 0 50px;
+    flex-wrap: wrap;
+    column-gap: 50px;
 }
 
 .products__card {
+    max-width: 244px;
     display: flex;
     flex-direction: column;
-    justify-items: center;
+    justify-content: flex-start;
 }
 
 .products__img {
     width: 244px;
+    height: 244px;
+    border-radius: 5px;
 }
 
 .products__card__h {
@@ -141,7 +145,6 @@ a.active {
     font-size: 12px;
     line-height: 15.62px;
     text-align: center;
-    min-height: 121px;
 }
 
 .products__btn {
@@ -159,4 +162,98 @@ a.active {
     line-height: 11.72px;
     text-align: center;
     color: #ffffff;
+}
+
+.partners__info {
+    margin-top: 110px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.partners__h {
+    font-size: 25px;
+    line-height: 29.3px;
+    text-align: center;
+    font-weight: 700;
+}
+
+.partners__text {
+    font-size: 14px;
+    line-height: 18.23px;
+    text-align: center;
+
+}
+
+.partners__logo {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    column-gap: 49px;
+}
+
+.partners__logo img {
+    margin-top: 18px;
+    background-size: cover;
+}
+
+.realesed__projects {
+    margin-top: 74px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.realesed__projects__h {
+    font-size: 25px;
+    line-height: 29.3px;
+    text-align: center;
+    font-weight: 700;
+}
+
+.realesed__projects__text {
+    margin-top: 13px;
+    font-size: 14px;
+    line-height: 18.23px;
+    text-align: center;
+}
+
+.realesed__projects-block {
+    margin-top: 35px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    column-gap: 50px;
+}
+
+.realesed__projects__card {
+    max-width: 244px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.realesed__projects__h {
+    margin-top: 22px;
+    font-size: 15px;
+    line-height: 19.53px;
+    text-align: center;
+}
+
+.realesed__projects__h span {
+    font-size: 9px;
+    line-height: 11.72px;
+    text-align: center;
+}
+
+.realesed__projects__text {
+    font-size: 12px;
+    line-height: 15.62px;
+    text-align: center;
+}
+
+hr {
+    margin-top: 37px;
+    color: #2D9CDB;
 }

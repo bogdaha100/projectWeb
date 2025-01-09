@@ -7,7 +7,7 @@
 @media (max-width: 768px) {
 
     .container,
-    .be__interesting {
+    .footer {
         text-align: center;
         justify-content: center !important;
     }
@@ -15,8 +15,7 @@
 
 @media (max-width: 450px) {
 
-    .navbar,
-    .be__interesting {
+    .navbar {
         justify-content: center !important;
         flex-direction: column;
         gap: 32px 0px !important;
@@ -196,6 +195,7 @@ a.active {
 .partners__logo img {
     margin-top: 18px;
     background-size: cover;
+    object-fit: contain;
 }
 
 .realesed__projects {
@@ -234,6 +234,10 @@ a.active {
     justify-content: flex-start;
 }
 
+.realesed__projects__card img {
+    object-fit: contain;
+}
+
 .realesed__projects__h {
     margin-top: 22px;
     font-size: 15px;
@@ -253,7 +257,50 @@ a.active {
     text-align: center;
 }
 
-hr {
+.hr {
     margin-top: 37px;
-    color: #2D9CDB;
+    height: 1px;
+    max-width: 100%;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    max-width: 100%;
+}
+
+.footer__text1 {
+    margin-top: 37px;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row;
+    column-gap: 38px;
+}
+
+.footer-item {
+    color: #4F4F4F;
+    text-decoration: none;
+    font-size: 12px;
+    line-height: 14.06px;
+    text-align: left;
+}
+
+.footer__text2 {
+    margin-top: 44px;
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: row;
+    column-gap: 38px;
+}
+
+.footer-item-right {
+    color: #4F4F4F;
+    text-decoration: none;
+    font-size: 10px;
+    line-height: 11.72px;
+    text-align: left;
+}
+
+.footer__logo {
+    width: 202px;
 }

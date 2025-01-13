@@ -238,20 +238,22 @@ a.active {
     object-fit: contain;
 }
 
-.realesed__projects__h {
+.realesed__projects__card__h {
     margin-top: 22px;
     font-size: 15px;
     line-height: 19.53px;
+    font-weight: 700;
     text-align: center;
 }
 
-.realesed__projects__h span {
+.realesed__projects__card__h span {
     font-size: 9px;
     line-height: 11.72px;
     text-align: center;
 }
 
-.realesed__projects__text {
+.realesed__projects__card__text {
+    margin-top: 12px;
     font-size: 12px;
     line-height: 15.62px;
     text-align: center;

@@ -1,0 +1,150 @@
+*,
+a {
+    font-family: 'Roboto', sans-serif;
+    color: #4F4F4F;
+    box-sizing: content-box;
+}
+
+@media (max-width: 768px) {
+
+    .container,
+    .footer {
+        text-align: center;
+        justify-content: center !important;
+    }
+}
+
+@media (max-width: 450px) {
+    .navbar {
+        justify-content: center !important;
+        flex-direction: column;
+        gap: 32px 0px !important;
+    }
+}
+
+div.container {
+    max-width: 1130px !important;
+}
+
+nav {
+    justify-content: space-between !important;
+    padding-top: 32px !important;
+    /* margin-bottom: 55px; */
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+}
+
+a.menu-item {
+    padding-right: 40px;
+    color: #4F4F4F;
+    text-decoration: none;
+    font-size: 14px;
+    line-height: 16.41px;
+    text-align: left;
+}
+
+a.active {
+    color: #2D9CDB !important;
+    font-weight: 700;
+}
+
+.header__logo {
+    width: 202px;
+}
+
+hr {
+    margin-top: 18px;
+    border: 1px solid #2D9CDB;
+}
+
+.product__name {
+    margin-top: 40px;
+    font-size: 11px;
+    line-height: 12.89px;
+    text-align: left;
+}
+
+.product__name span {
+    font-size: 11px;
+    line-height: 12.89px;
+    text-align: left;
+    font-weight: 700;
+}
+
+.products__about-block {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    column-gap: 41px;
+}
+
+.products__about-block img {
+    width: 547px;
+    height: 387px;
+    border-radius: 5px 0px 0px 0px;
+}
+
+.products__about-block hr {
+    max-width: 537px;
+    border: 1px solid #2D9CDB;
+}
+
+.products__about__h {
+    margin-top: 23px;
+    font-size: 25px;
+    line-height: 30.91px;
+    text-align: left;
+    font-weight: 700;
+}
+
+.products__about__advanteges {
+    margin-top: 38px;
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    gap: 13px 30px;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 19.69px;
+    text-align: left;
+}
+
+.products__about__advanteges div {
+    max-width: 220px;
+}
+
+.after-products__about__advanteges {
+    margin-top: 28px;
+}
+
+.products__about__buy {
+    margin-top: 48px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 13px 30px;
+}
+
+.products__about__buy div {
+    font-size: 25px;
+    line-height: 35.16px;
+    text-align: left;
+    font-weight: 700;
+}
+
+.products__about__buy button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 148px;
+    height: 51px;
+    border: 0px;
+    border-radius: 40px;
+    /* margin: auto auto; */
+    background: #27AE60;
+    font-size: 16px;
+    line-height: 22.5px;
+    text-align: left;
+    color: #ffffff;
+
+}

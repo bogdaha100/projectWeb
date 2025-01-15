@@ -145,6 +145,149 @@ hr {
     font-size: 16px;
     line-height: 22.5px;
     text-align: left;
+    font-weight: 700;
     color: #ffffff;
+    text-transform: uppercase;
+}
 
+.product__title {
+    margin-left: 24px;
+    margin-top: 55px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: center;
+    column-gap: 53px;
+}
+
+.product__description {
+    font-size: 20px;
+    line-height: 23.44px;
+    text-align: left;
+    font-weight: 700;
+}
+
+.product__characteristic {
+    font-size: 20px;
+    line-height: 28.13px;
+    text-align: left;
+}
+
+.product__description-block {
+    display: flex;
+    margin-left: 24px;
+    column-gap: 73px;
+}
+
+.product__description__text {
+    max-width: 620px;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: left;
+}
+
+.product__description__text span {
+    font-weight: 700;
+}
+
+.labaratory__block {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.labaratory__block__text {
+    display: flex;
+
+    font-size: 14px;
+    line-height: 20px;
+    text-align: left;
+    font-weight: 700;
+}
+
+.labaratory__block_img {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    column-gap: 34px;
+}
+
+.labaratory__block_img img {
+    margin-top: 20px;
+    background-size: cover;
+    object-fit: contain;
+}
+
+.performance {
+    margin-top: 67px;
+    display: flex;
+    justify-content: center;
+}
+
+.performance__h {
+    text-transform: uppercase;
+    font-size: 20px;
+    line-height: 28.13px;
+    text-align: left;
+    font-weight: 700;
+}
+
+.performance__img-block {
+    margin-top: 62px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    column-gap: 48px;
+}
+
+.performance__img-block img {
+    width: 343px;
+}
+
+.hr {
+    margin-top: 65px;
+    height: 1px;
+    max-width: 100%;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    max-width: 100%;
+}
+
+.footer__text1 {
+    margin-top: 37px;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row;
+    column-gap: 38px;
+}
+
+.footer-item {
+    color: #4F4F4F;
+    text-decoration: none;
+    font-size: 12px;
+    line-height: 14.06px;
+    text-align: left;
+}
+
+.footer__text2 {
+    margin-top: 44px;
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: row;
+    column-gap: 38px;
+}
+
+.footer-item-right {
+    color: #4F4F4F;
+    text-decoration: none;
+    font-size: 10px;
+    line-height: 11.72px;
+    text-align: left;
+}
+
+.footer__logo {
+    width: 202px;
 }

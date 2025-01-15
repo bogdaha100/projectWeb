@@ -22,6 +22,10 @@ a {
     }
 }
 
+.hidden {
+    display: none;
+}
+
 div.container {
     max-width: 1130px !important;
 }
@@ -82,6 +86,10 @@ hr {
     width: 547px;
     height: 387px;
     border-radius: 5px 0px 0px 0px;
+}
+
+.products__about-right {
+    max-width: 537px;
 }
 
 .products__about-block hr {
@@ -187,6 +195,38 @@ hr {
 }
 
 .product__description__text span {
+    font-weight: 700;
+}
+
+.product__characteristic-block {
+    display: flex;
+    flex-direction: column;
+    margin-left: 25px;
+    font-size: 14px;
+    line-height: 15.59px;
+    text-align: left;
+}
+
+
+.block1,
+.block2,
+.block3,
+.block4,
+.block5 {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.product__characteristic__param {
+    margin-top: 26px;
+    max-width: 620px;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: left;
+}
+
+.product__characteristic__param span {
     font-weight: 700;
 }
 

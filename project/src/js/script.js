@@ -7,9 +7,11 @@ document.addEventListener('DOMContentLoaded', () => {
     mapBtn.addEventListener('click', () => {
         window.location.href = '/project/index3.html'
     })
+    
     labBtn.addEventListener('click', () => {
         window.location.href = '/project/index3.html'
     })
+
     const myModal = document.getElementById('myModal')
     const myInput = document.getElementById('myInput')
 

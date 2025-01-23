@@ -20,13 +20,13 @@
                 <div>
                     <ul class="navbar-nav header__text">
                         <li>
-                            <a class="menu-item" href="/">Главная</a>
+                            <a class="menu-item" href="/project/index1.html">Главная</a>
                         </li>
                         <li>
-                            <a class="menu-item active" href="/">Продукция</a>
+                            <a class="menu-item active" href="/project/index2.html">Продукция</a>
                         </li>
                         <li>
-                            <a class="menu-item" href="/">О компании</a>
+                            <a class="menu-item" href="/project/index.html">О компании</a>
                         </li>
                         <li>
                             <a class="menu-item" href="/">Новости</a>
@@ -55,8 +55,10 @@
         </div>
         <div class="container">
             <div class="products__about-block">
-                <img src="/project/src/img/products/products1_about.png" alt="">
-                <div class="products__about-right">
+                <div class="col">
+                    <img src="/project/src/img/products/products1_about.png" alt="">
+                </div>
+                <div class="col">
                     <div>VK FB TW</div>
                     <hr>
                     <div class="products__about__h">
@@ -76,7 +78,7 @@
                     <hr class="after-products__about__advanteges">
                     <div class="products__about__buy">
                         <div>Цена по запросу</div>
-                        <button>Заказать</button>
+                        <button type="button" data-bs-toggle="modal" data-bs-target="#staticBackdrop">Заказать</button>
                     </div>
                 </div>
             </div>
@@ -130,7 +132,7 @@
         </div>
     </div>
 
-    <div class="">
+    <div class="hidden">
         <div class="container">
             <div class="product__name">
                 Продукция | <span>НИЛ “3D Лабораторный комплекс”</span>
@@ -141,8 +143,10 @@
         </div>
         <div class="container">
             <div class="products__about-block">
-                <img src="/project/src/img/products/products1_about.png" alt="">
-                <div>
+                <div class="col">
+                    <img src="/project/src/img/products/products1_about.png" alt="">
+                </div>
+                <div class="col">
                     <div>VK FB TW</div>
                     <hr>
                     <div class="products__about__h">
@@ -162,7 +166,7 @@
                     <hr class="after-products__about__advanteges">
                     <div class="products__about__buy">
                         <div>Цена по запросу</div>
-                        <button>Заказать</button>
+                        <button type="button" data-bs-toggle="modal" data-bs-target="#staticBackdrop">Заказать</button>
                     </div>
                 </div>
             </div>
@@ -230,23 +234,26 @@
     </div>
     <div class="container">
         <div class="footer">
-            <ul class="navbar-nav footer__text1">
-                <li>
-                    <a class="footer-item" href="/">Главная</a>
-                </li>
-                <li>
-                    <a class="footer-item" href="/">Продукция</a>
-                </li>
-                <li>
-                    <a class="footer-item" href="/">О компании</a>
-                </li>
-                <li>
-                    <a class="footer-item" href="/">Новости</a>
-                </li>
-                <li>
-                    <a class="footer-item" href="/">Проекты</a>
-                </li>
-            </ul>
+            <div class="footer__text1">
+                <ul class="navbar-nav footer__text-left">
+                    <li>
+                        <a class="footer-item" href="/">Главная</a>
+                    </li>
+                    <li>
+                        <a class="footer-item" href="/">Продукция</a>
+                    </li>
+                    <li>
+                        <a class="footer-item" href="/">О компании</a>
+                    </li>
+                    <li>
+                        <a class="footer-item" href="/">Новости</a>
+                    </li>
+                    <li>
+                        <a class="footer-item" href="/">Проекты</a>
+                    </li>
+                </ul>
+                <img src="/project/src/img/aboutCompany/logo.png" alt="" class="footer__logo">
+            </div>
             <div class="footer__text2">
                 <ul class="navbar-nav">
                     <li>
@@ -273,9 +280,34 @@
                 </ul>
             </div>
         </div>
-        <img src="/project/src/img/aboutCompany/logo.png" alt="" class="footer__logo">
     </div>
+    <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+        aria-labelledby="staticBackdropLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="staticBackdropLabel">Заголовок модального окна</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Закрыть"></button>
+                </div>
+                <div class="modal-body">
 
+                    <label for="name">Имя:</label>
+                    <input type="text" id="name" name="name" required>
+
+                    <label for="email">Почта:</label>
+                    <input type="email" id="email" name="email" required>
+
+                    <button type="submit">отправить</button>
+
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Закрыть</button>
+                    <button type="button" class="btn btn-primary">Понял</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="/project/src/js/script.js"></script>
 </body>
 
 </html>

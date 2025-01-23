@@ -205,13 +205,22 @@ hr {
     display: flex;
     justify-content: space-between;
     max-width: 100%;
+    flex-wrap: wrap;
+    margin-bottom: 47px;
 }
 
 .footer__text1 {
     margin-top: 37px;
     display: flex;
     justify-content: flex-start;
-    flex-direction: row;
+    flex-direction: column;
+    column-gap: 38px;
+}
+
+.footer__text-left {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row !important;
     column-gap: 38px;
 }
 
@@ -240,5 +249,6 @@ hr {
 }
 
 .footer__logo {
+    margin-top: 36px;
     width: 202px;
 }

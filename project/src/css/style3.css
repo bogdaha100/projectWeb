@@ -78,12 +78,12 @@ hr {
 .products__about-block {
     display: flex;
     justify-content: space-between;
-    flex-wrap: nowrap;
+    flex-wrap: wrap;
     column-gap: 41px;
 }
 
 .products__about-block img {
-    width: 547px;
+    max-width: 547px;
     height: 387px;
     border-radius: 5px 0px 0px 0px;
 }
@@ -294,13 +294,22 @@ hr {
     display: flex;
     justify-content: space-between;
     max-width: 100%;
+    flex-wrap: wrap;
+    margin-bottom: 47px;
 }
 
 .footer__text1 {
     margin-top: 37px;
     display: flex;
     justify-content: flex-start;
-    flex-direction: row;
+    flex-direction: column;
+    column-gap: 38px;
+}
+
+.footer__text-left {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row !important;
     column-gap: 38px;
 }
 
@@ -329,5 +338,6 @@ hr {
 }
 
 .footer__logo {
+    margin-top: 36px;
     width: 202px;
 }

@@ -22,6 +22,10 @@ a {
     }
 }
 
+.fa-phone {
+    transform: rotate(90deg);
+}
+
 .hidden {
     display: none;
 }
